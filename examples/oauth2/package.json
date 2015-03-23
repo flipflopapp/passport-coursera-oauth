@@ -1,0 +1,16 @@
+{
+  "name": "passport-coursera-oauth-examples-oauth2",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": ">= 0.0.0",
+    "serve-static": ">=0.0.0",
+    "body-parser": ">= 0.0.0",
+    "method-override": ">=0.0.0",
+    "cookie-parser": ">=0.0.0",
+    "express-session": ">=0.0.0",
+    "morgan": ">=0.0.0",
+    "ejs": ">= 0.0.0",
+    "express-ejs-layouts": ">= 0.0.0",
+    "passport": ">= 0.0.0"
+  }
+}
