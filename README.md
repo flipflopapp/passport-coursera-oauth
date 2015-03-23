@@ -57,7 +57,7 @@ var CourseraStrategy = require('passport-coursera-oauth').OAuth2Strategy;
 passport.use(new CourseraStrategy({
     clientID: COURSERA_CLIENT_ID,
     clientSecret: COURSERA_CLIENT_SECRET,
-    callbackURL: "http://127.0.0.1:3000/auth/coursera/callback",
+    callbackURL: "http://localhost:3000/auth/coursera/callback",
     profileFields: [ 'timezone', 'locale', 'privacy']
   },
   function(accessToken, profile, done) {
